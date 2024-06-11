@@ -2,6 +2,7 @@ require 'debug'
 
 # Define a method named fibonacci which takes a number n as its parameter
 def fibonacci(num)
+
   # Base case: If n is 0 or 1, return n directly
   # This is because the first two numbers of the Fibonacci sequence are defined as 0 and 1
   return num if num <= 1
@@ -13,4 +14,5 @@ end
 
 # Call the fibonacci method with 5 and print the result
 # This will print "5" to the console, as fibonacci(5) calculates the 5th number in the Fibonacci sequence
-puts fibonacci(10)
+
+puts fibonacci(15)
