@@ -15,6 +15,6 @@ class TestValidParentheses < Minitest::Test
   end
 
   def test_valid_parentheses_4
-    assert_equal true, valid_parentheses("({[({[({[(){}]})]})]})" * 100)
+    assert_equal true, valid_parentheses("({[({[({[(){}]})]})]})" * 1000)
   end
 end

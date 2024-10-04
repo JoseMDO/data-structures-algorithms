@@ -25,6 +25,12 @@ end
 
 
 
+
+
+
+
+
+
 def is_valid_brute_force(s)
   # Initialize the length of the string
   start = Time.now
