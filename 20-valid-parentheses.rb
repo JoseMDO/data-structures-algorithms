@@ -20,7 +20,7 @@ def valid_parentheses(string)
   diff = finish - start
   pp format('Hash Method: %.6f seconds', diff)
 
-  stack.empty?
+  return stack.empty?
 end
 
 
